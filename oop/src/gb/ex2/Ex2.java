@@ -54,7 +54,12 @@ System.out.println("Car is stop");
 }
 }*/
 
-public class ex2 {
+public class Ex2 {
+    class Inner {
+        static public void show() {
+            System.out.println("Метод внутреннего класса");
+        }
+    }
 
     public static void main(String[] args) {
         System.out.println("1. В классе Car поле engine лучше объявить через интерфейс IEngine");

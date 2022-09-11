@@ -1,0 +1,1 @@
+Для запуска томката необходимо нажать на кнопку Execute Maven Goal и ввести команду mvn clean install tomcat7:run
